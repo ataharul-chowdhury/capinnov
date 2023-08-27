@@ -73,7 +73,7 @@
 	}
 }
 
-.about-submenu-active {
+.research-submenu-active {
 	top: 50px;
 	display: flex;
 	padding: 10px;
@@ -83,7 +83,7 @@
 	border: 1px var(--primary-color) solid;
 }
 
-.about-submenu {
+.research-submenu {
 	display: none;
 }
 
