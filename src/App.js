@@ -4,7 +4,10 @@ import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
 import ResearchProgram from "./pages/research-program";
+
 import ASIO from "./pages/asio";
+import GNF from "./pages/gnf";
+
 import Projects from "./pages/projects";
 import Articles from "./pages/articles";
 import ReadArticle from "./pages/readArticle";
@@ -28,7 +31,10 @@ function App() {
 				<Route path="/research-program" element={<ResearchProgram />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/articles" element={<Articles />} />
+
 				<Route path="/asio" element={<ASIO />} />
+				<Route path="/gnf" element={<GNF />} />
+
 				<Route path="/article/:slug" element={<ReadArticle />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />

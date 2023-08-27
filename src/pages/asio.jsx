@@ -117,7 +117,7 @@ const About = () => {
 											<Tabs value={value} onChange={handleChange} aria-label="basic tabs example" variant="scrollable" >
 												<Tab className="tab-headers" label="Overview" {...a11yProps(0)} wrapped />
 												<Tab className="tab-headers" label="Forum Discussion" {...a11yProps(1)} wrapped />
-												<Tab className="tab-headers" label="Advisory Service Network Map" {...a11yProps(1)} wrapped />
+												<Tab className="tab-headers" label="Advisory Service Network Map" {...a11yProps(2)} wrapped />
 											</Tabs>
 
 										</Box>
