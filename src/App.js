@@ -7,6 +7,7 @@ import ResearchProgram from "./pages/research-program";
 
 import ASIO from "./pages/asio";
 import GNF from "./pages/gnf";
+import SMAC from "./pages/smac";
 
 import Projects from "./pages/projects";
 import Articles from "./pages/articles";
@@ -34,6 +35,7 @@ function App() {
 
 				<Route path="/asio" element={<ASIO />} />
 				<Route path="/gnf" element={<GNF />} />
+				<Route path="/smac" element={<SMAC />} />
 
 				<Route path="/article/:slug" element={<ReadArticle />} />
 				<Route path="/contact" element={<Contact />} />
