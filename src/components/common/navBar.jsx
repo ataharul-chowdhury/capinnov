@@ -39,6 +39,8 @@ const NavBar = (props) => {
 								</div>
 							</li>
 
+							New
+
 							{/* Link to the Teaching Page */}
 							<li className = { active === "teaching" ? "nav-item active" : "nav-item" } >
 								<Link onClick = {() => handleTeachingMenu()} className = "teaching-menu" to = "/teaching-philosophy"> Teaching </Link>
