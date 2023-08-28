@@ -5,7 +5,7 @@ const INFO = {
 		title: "Ataharul Chowdhury, PhD - Associate Professor, University of Guelph",
 		name: "Ataharul Chowdhury",
 		email: "ataharul.chowdhury@uoguelph.ca",
-		logo: <CapinnovLogo />
+		logo: CapinnovLogo
 	},
 
 	socials: {
