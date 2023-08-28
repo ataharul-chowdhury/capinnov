@@ -272,7 +272,7 @@ export default function BasicTabs() {
 
                 <ListItem>
                     <ListItemIcon sx={{ height: 'auto', padding: 20 + 'px' }}>
-                        <img width = '120px' src="./OMAFRA-LOGO.jpg" alt="" />
+                        <img width = '120px' src="./capinnov/OMAFRA-LOGO.jpg" alt="" />
                     </ListItemIcon>
                     <ListItemText 
                         primary={
@@ -296,7 +296,7 @@ export default function BasicTabs() {
 
                 <ListItem>
                     <ListItemIcon sx={{ height: 'auto', padding: 20 + 'px' }}>
-                        <img width = '120px' src="./SSHRCLogo.png" alt="" />
+                        <img width = '120px' src="./capinnov/SSHRCLogo.png" alt="" />
                     </ListItemIcon>
                     <ListItemText 
                         primary={
@@ -320,7 +320,7 @@ export default function BasicTabs() {
 
                 <ListItem>
                     <ListItemIcon sx={{ height: 'auto', padding: 20 + 'px' }}>
-                        <img width = '120px' src="./cgiar.jpg" alt="" />
+                        <img width = '120px' src="./capinnov/cgiar.jpg" alt="" />
                     </ListItemIcon>
                     <ListItemText 
                         primary={
@@ -345,7 +345,7 @@ export default function BasicTabs() {
 
                 <ListItem>
                     <ListItemIcon sx={{ height: 'auto', padding: 20 + 'px' }}>
-                        <img width = '120px' src="./fao.png" alt="" />
+                        <img width = '120px' src="./capinnov/fao.png" alt="" />
                     </ListItemIcon>
                     <ListItemText 
                         primary={
@@ -370,7 +370,7 @@ export default function BasicTabs() {
 
                 <ListItem>
                     <ListItemIcon sx={{ height: 'auto', padding: 20 + 'px' }}>
-                        <img width = '120px' src="./west-indies.png" alt="" />
+                        <img width = '120px' src="./capinnov/west-indies.png" alt="" />
                     </ListItemIcon>
                     <ListItemText 
                         primary={
@@ -398,7 +398,7 @@ export default function BasicTabs() {
 
                 <ListItem>
                     <ListItemIcon sx={{ height: 'auto', padding: 20 + 'px' }}>
-                        <img width = '120px' src="./aiaee.jpg" alt="" />
+                        <img width = '120px' src="./capinnov/aiaee.jpg" alt="" />
                     </ListItemIcon>
                     <ListItemText 
                         primary={
@@ -423,7 +423,7 @@ export default function BasicTabs() {
 
                 <ListItem>
                     <ListItemIcon sx={{ height: 'auto', padding: 20 + 'px' }}>
-                        <img width = '120px' src="./iamcr.png" alt="" />
+                        <img width = '120px' src="./capinnov/iamcr.png" alt="" />
                     </ListItemIcon>
                     <ListItemText 
                         primary={
@@ -447,7 +447,7 @@ export default function BasicTabs() {
 
                 <ListItem>
                     <ListItemIcon sx={{ height: 'auto', padding: 20 + 'px' }}>
-                        <img width = '120px' src="./acc-cca.png" alt="" />
+                        <img width = '120px' src="./capinnov/acc-cca.png" alt="" />
                     </ListItemIcon>
                     <ListItemText 
                         primary={
@@ -473,7 +473,7 @@ export default function BasicTabs() {
 
                 <ListItem>
                     <ListItemIcon sx={{ height: 'auto', padding: 20 + 'px' }}>
-                        <img width = '120px' src="./esac.jpeg" alt="" />
+                        <img width = '120px' src="./capinnov/esac.jpeg" alt="" />
                     </ListItemIcon>
                     <ListItemText 
                         primary={
@@ -499,7 +499,7 @@ export default function BasicTabs() {
 
                 <ListItem>
                     <ListItemIcon sx={{ height: 'auto', padding: 20 + 'px' }}>
-                        <img width = '120px' src="./fcrr-crrf.png" alt="" />
+                        <img width = '120px' src="./capinnov/fcrr-crrf.png" alt="" />
                     </ListItemIcon>
                     <ListItemText 
                         primary={

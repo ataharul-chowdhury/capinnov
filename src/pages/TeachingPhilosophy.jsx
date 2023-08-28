@@ -133,7 +133,7 @@ const About = () => {
                                                     </p> <br/>
                                                     <ListItemText
                                                         secondary={
-                                                            <img src = "./teaching-philosophy.jpg" alt = "teaching-philosophy" width="100%" />
+                                                            <img src = "./capinnov/teaching-philosophy.jpg" alt = "teaching-philosophy" width="100%" />
                                                         }
                                                     /> <br/>
                                                     <p>

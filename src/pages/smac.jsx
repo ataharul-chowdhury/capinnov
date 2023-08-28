@@ -184,7 +184,7 @@ const About = () => {
 										<ListItemText
 											primary="Funded By"
 											secondary={
-												<img src = "./smac-fund.png" alt = "gnf-fund" height={125}/>
+												<img src = "./capinnov/smac-fund.png" alt = "gnf-fund" height={125}/>
 											}
 											primaryTypographyProps={{ fontSize: "18px", color: "black", marginBottom: "10px" }}
 										/>
@@ -194,7 +194,7 @@ const About = () => {
 										<ListItemText
 											primary="In Partnership With"
 											secondary={
-												<img src = "./smac-partner.jpg" alt = "asio-fund" height={125}/>
+												<img src = "./capinnov/smac-partner.jpg" alt = "asio-fund" height={125}/>
 											}
 											primaryTypographyProps={{ fontSize: "18px", color: "black", marginBottom: "10px" }}
 										/>
