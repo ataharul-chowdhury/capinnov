@@ -500,7 +500,7 @@ const About = () => {
 										<ListItemText
 											primary="Funded By"
 											secondary={
-												<img src = "./capinnov/gnf-fund.png" alt = "gnf-fund" height={125}/>
+												<img src = {Gnf_Fund} alt = "gnf-fund" height={125}/>
 											}
 											primaryTypographyProps={{ fontSize: "18px", color: "black", marginBottom: "10px" }}
 										/>

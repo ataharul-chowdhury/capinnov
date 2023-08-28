@@ -10,6 +10,8 @@ import {
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
+import AtaharulChowdhuryProfile from "../assets/ataharul-chowdhury-profile.jpg"
+
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
@@ -105,7 +107,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="./capinnov/ataharul-chowdhury-profile.jpg"
+											src={AtaharulChowdhuryProfile}
 											alt="about"
 											className="homepage-image"
 										/>

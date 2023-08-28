@@ -9,6 +9,9 @@ import Socials from "../components/about/socials";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
+import SMAC_Fund from "../assets/smac-fund.png"
+import SMAC_Partner from "../assets/smac-partner.jpg"
+
 import "./styles/about.css";
 import {
 	ListItem,
@@ -184,7 +187,7 @@ const About = () => {
 										<ListItemText
 											primary="Funded By"
 											secondary={
-												<img src = "./capinnov/smac-fund.png" alt = "gnf-fund" height={125}/>
+												<img src = {SMAC_Fund} alt = "gnf-fund" height={125}/>
 											}
 											primaryTypographyProps={{ fontSize: "18px", color: "black", marginBottom: "10px" }}
 										/>
@@ -194,7 +197,7 @@ const About = () => {
 										<ListItemText
 											primary="In Partnership With"
 											secondary={
-												<img src = "./capinnov/smac-partner.jpg" alt = "asio-fund" height={125}/>
+												<img src = {SMAC_Partner} alt = "asio-fund" height={125}/>
 											}
 											primaryTypographyProps={{ fontSize: "18px", color: "black", marginBottom: "10px" }}
 										/>
