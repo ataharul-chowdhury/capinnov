@@ -11,6 +11,9 @@ const NavBar = (props) => {
 	const [isResearchSubMenuActive, setIsResearchSubMenuActive] = useState(active === "research" ? true : false);
 	const handleResearchMenu = () => setIsResearchSubMenuActive(!isResearchSubMenuActive)
 
+	const [isTeachingSubMenuActive, setIsTeachingSubMenuActive] = useState(active === "teaching" ? true : false);
+	const handleTeachingMenu = () => setIsTeachingSubMenuActive(!isTeachingSubMenuActive)
+
 	return (
 		<React.Fragment>
 			<div className="nav-container">
@@ -36,9 +39,18 @@ const NavBar = (props) => {
 								</div>
 							</li>
 
-							{/* Link to the Project Page */}
-							<li className = { active === "projects" ? "nav-item active" : "nav-item" } >
-								<Link to = "/projects"> Projects </Link>
+							{/* Link to the Teaching Page */}
+							<li className = { active === "teaching" ? "nav-item active" : "nav-item" } >
+								<Link onClick = {() => handleTeachingMenu()} className = "teaching-menu" to = "/teaching-philosophy"> Teaching </Link>
+
+								{/* Link to the Teaching Sub Menu */}
+								<div className = { isTeachingSubMenuActive === true ? "teaching-submenu-active" : "teaching-submenu" } >
+									<Link className = "subnav-link" to = "/teaching-philosophy"> Teaching Philosophy <ArrowRight/></Link>
+									<Link className = "subnav-link" to = "/courses-taught"> Courses Taught <ArrowRight/></Link>
+									<Link className = "subnav-link" to = "/gnf"> Current Students <ArrowRight/></Link>
+									<Link className = "subnav-link" to = "/smac"> Past Students <ArrowRight/></Link>
+									<Link className = "subnav-link" to = "/smac"> Professional Development <ArrowRight/></Link>
+								</div>
 							</li>
 
 							{/* Link to the Articles Page */}

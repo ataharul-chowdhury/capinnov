@@ -87,6 +87,20 @@
 	display: none;
 }
 
+.teaching-submenu-active {
+	top: 50px;
+	display: flex;
+	padding: 10px;
+	position: absolute;
+	flex-direction: column;
+	background-color: white;
+	border: 1px var(--primary-color) solid;
+}
+
+.teaching-submenu {
+	display: none;
+}
+
 .submenu-nav-item:hover {
 	background-clip: padding-box;
 }
