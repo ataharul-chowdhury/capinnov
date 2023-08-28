@@ -6,6 +6,9 @@ import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 
+import Asio_Fund from "../assets/asio-fund.png"
+import Asio_Partner from "../assets/asio-partner.png"
+
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
@@ -67,6 +70,8 @@ const About = () => {
 	};
 
 	const currentSEO = SEO.find((item) => item.page === "about");
+
+	// Comment
 
 	return (
 		<React.Fragment>
@@ -260,7 +265,7 @@ const About = () => {
 										<ListItemText
 											primary="Funded By"
 											secondary={
-												<img src = "./capinnov/asio-fund.png" alt = "asio-fund" height={125}/>
+												<img src = {Asio_Fund} alt = "asio-fund" height={125}/>
 											}
 											primaryTypographyProps={{ fontSize: "18px", color: "black", marginBottom: "10px" }}
 										/>
@@ -270,7 +275,7 @@ const About = () => {
 										<ListItemText
 											primary="In Partnership With"
 											secondary={
-												<img src = "./capinnov/asio-partner.png" alt = "asio-fund" height={125}/>
+												<img src = {Asio_Partner} alt = "asio-fund" height={125}/>
 											}
 											primaryTypographyProps={{ fontSize: "18px", color: "black", marginBottom: "10px" }}
 										/>
