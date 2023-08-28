@@ -1,16 +1,29 @@
 {
   "files": {
     "main.css": "/capinnov/static/css/main.c2335244.css",
-    "main.js": "/capinnov/static/js/main.83233348.js",
+    "main.js": "/capinnov/static/js/main.a3b495fa.js",
     "static/js/787.512dd3f2.chunk.js": "/capinnov/static/js/787.512dd3f2.chunk.js",
+    "static/media/ataharul-chowdhury-profile.jpg": "/capinnov/static/media/ataharul-chowdhury-profile.3cd68456e03255cd03fb.jpg",
+    "static/media/fao.png": "/capinnov/static/media/fao.740d17ce8baaa5986297.png",
     "static/media/search.gif": "/capinnov/static/media/search.214a593acc42a0501c4b.gif",
+    "static/media/west-indies.png": "/capinnov/static/media/west-indies.0747fcc71c0d645c34f6.png",
+    "static/media/back-button.png": "/capinnov/static/media/back-button.d19b46127c03f302fed2.png",
+    "static/media/asio-fund.png": "/capinnov/static/media/asio-fund.aa17b7de4d9c110fc368.png",
+    "static/media/asio-partner.png": "/capinnov/static/media/asio-partner.9d642eef657996570fac.png",
+    "static/media/SSHRCLogo.png": "/capinnov/static/media/SSHRCLogo.ed679d5b790d876239c9.png",
+    "static/media/gnf-fund.png": "/capinnov/static/media/gnf-fund.ed679d5b790d876239c9.png",
+    "static/media/smac-fund.png": "/capinnov/static/media/smac-fund.ed679d5b790d876239c9.png",
+    "static/media/cgiar.jpg": "/capinnov/static/media/cgiar.6a0021ef234391605954.jpg",
+    "static/media/fcrr-crrf.png": "/capinnov/static/media/fcrr-crrf.d15dfa6ba1bd4cb76621.png",
+    "static/media/smac-partner.jpg": "/capinnov/static/media/smac-partner.a1660a52aab1db9e3b94.jpg",
+    "static/media/esac.jpeg": "/capinnov/static/media/esac.2b6ff1cc3e6f0d08a28d.jpeg",
     "index.html": "/capinnov/index.html",
     "main.c2335244.css.map": "/capinnov/static/css/main.c2335244.css.map",
-    "main.83233348.js.map": "/capinnov/static/js/main.83233348.js.map",
+    "main.a3b495fa.js.map": "/capinnov/static/js/main.a3b495fa.js.map",
     "787.512dd3f2.chunk.js.map": "/capinnov/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2335244.css",
-    "static/js/main.83233348.js"
+    "static/js/main.a3b495fa.js"
   ]
 }
