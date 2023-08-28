@@ -1,9 +1,11 @@
+import CapinnovLogo from "../../public/search.gif"
+
 const INFO = {
 	main: {
 		title: "Ataharul Chowdhury, PhD - Associate Professor, University of Guelph",
 		name: "Ataharul Chowdhury",
 		email: "ataharul.chowdhury@uoguelph.ca",
-		logo: "./capinnov/search.gif"
+		logo: <CapinnovLogo />
 	},
 
 	socials: {
