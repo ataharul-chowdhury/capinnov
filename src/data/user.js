@@ -1,4 +1,4 @@
-import CapinnovLogo from "../../public/search.gif"
+import CapinnovLogo from "../assets/search.gif"
 
 const INFO = {
 	main: {
