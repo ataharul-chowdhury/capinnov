@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/capinnov/static/css/main.c2335244.css",
-    "main.js": "/capinnov/static/js/main.c31cba8c.js",
+    "main.js": "/capinnov/static/js/main.512297af.js",
     "static/js/787.512dd3f2.chunk.js": "/capinnov/static/js/787.512dd3f2.chunk.js",
     "index.html": "/capinnov/index.html",
     "main.c2335244.css.map": "/capinnov/static/css/main.c2335244.css.map",
-    "main.c31cba8c.js.map": "/capinnov/static/js/main.c31cba8c.js.map",
+    "main.512297af.js.map": "/capinnov/static/js/main.512297af.js.map",
     "787.512dd3f2.chunk.js.map": "/capinnov/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2335244.css",
-    "static/js/main.c31cba8c.js"
+    "static/js/main.512297af.js"
   ]
 }
