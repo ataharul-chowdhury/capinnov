@@ -26,7 +26,7 @@
 }
 
 .about-right-side {
-	flex-basis: 900px;
+	flex-basis: 800px;
 }
 
 .about-title {
@@ -40,7 +40,7 @@
 .about-left-side {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 300px;
+	flex-basis: 400px;
 }
 
 .about-image-container {

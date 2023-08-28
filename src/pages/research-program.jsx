@@ -10,7 +10,8 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
-import { ListItem, ListItemText } from "@mui/material";
+import { Timeline } from "react-twitter-widgets";
+import { ListItem, ListItemText, Divider } from "@mui/material";
 
 const About = () => {
 	useEffect(() => {
@@ -202,6 +203,26 @@ const About = () => {
 								<div className="about-socials">
 									<Socials />
 								</div>
+
+								{/* Widgets Section Start */}
+								<Timeline
+									dataSource={{
+										sourceType: 'profile',
+										screenName: 'ataharul'
+									}}
+									options={{
+										height: 400
+									}}
+								/>
+
+								<br /><Divider /><br />
+
+								<iframe
+									src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUofGuelphOAC&tabs=timeline&width=340&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+									title="uoguelph-facebook" width="340" height="400" style={{ border: 'none', overflow: 'hidden' }} frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+								></iframe>
+
+								{/* Widgets Section End */}
 
 							</div>
 						</div>
