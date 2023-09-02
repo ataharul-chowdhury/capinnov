@@ -36,6 +36,7 @@ const NavBar = (props) => {
 									<Link className = "subnav-link" to = "/asio"> Advisory Service In Ontario <ArrowRight/></Link>
 									<Link className = "subnav-link" to = "/gnf"> Global Network Forum <ArrowRight/></Link>
 									<Link className = "subnav-link" to = "/smac"> Social Media for Agricultural COPs <ArrowRight/></Link>
+									<Link className = "subnav-link" to = "/literatureDB"> Literature Database <ArrowRight/></Link>
 								</div>
 							</li>
 

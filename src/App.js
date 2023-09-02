@@ -8,6 +8,7 @@ import ResearchProgram from "./pages/research-program";
 import ASIO from "./pages/asio";
 import GNF from "./pages/gnf";
 import SMAC from "./pages/smac";
+import LiteratureDB from "./pages/demolibrary";
 
 import TeachingPhilosophy from "./pages/TeachingPhilosophy"
 import CoursesTaught from "./pages/CoursesTaught"
@@ -39,6 +40,7 @@ function App() {
 				<Route path="/asio" element={<ASIO />} />
 				<Route path="/gnf" element={<GNF />} />
 				<Route path="/smac" element={<SMAC />} />
+				<Route path="/literatureDB" element={<LiteratureDB />} />
 
 				<Route path="/teaching-philosophy" element={<TeachingPhilosophy />} />
 				<Route path="/courses-taught" element={<CoursesTaught />} />
