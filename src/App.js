@@ -33,6 +33,7 @@ function App() {
 		<div className="App">
 			<Routes>
 				<Route path="/capinnov" element={<Homepage />} />
+				<Route path="/" element={<Homepage />} />
 				<Route path="/research-program" element={<ResearchProgram />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/articles" element={<Articles />} />
@@ -40,7 +41,7 @@ function App() {
 				<Route path="/asio" element={<ASIO />} />
 				<Route path="/gnf" element={<GNF />} />
 				<Route path="/smac" element={<SMAC />} />
-				<Route path="/literatureDB" element={<LiteratureDB />} />
+				<Route path="capinnov/literatureDB" element={<LiteratureDB />} />
 
 				<Route path="/teaching-philosophy" element={<TeachingPhilosophy />} />
 				<Route path="/courses-taught" element={<CoursesTaught />} />
