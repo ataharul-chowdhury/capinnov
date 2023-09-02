@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/capinnov/static/css/main.44d81695.css",
-    "main.js": "/capinnov/static/js/main.4a971e19.js",
+    "main.css": "/capinnov/static/css/main.4a752c80.css",
+    "main.js": "/capinnov/static/js/main.609aaa6c.js",
     "static/js/787.512dd3f2.chunk.js": "/capinnov/static/js/787.512dd3f2.chunk.js",
     "static/media/ataharul-chowdhury-profile.jpg": "/capinnov/static/media/ataharul-chowdhury-profile.3cd68456e03255cd03fb.jpg",
     "static/media/fao.png": "/capinnov/static/media/fao.740d17ce8baaa5986297.png",
@@ -18,12 +18,12 @@
     "static/media/smac-partner.jpg": "/capinnov/static/media/smac-partner.a1660a52aab1db9e3b94.jpg",
     "static/media/esac.jpeg": "/capinnov/static/media/esac.2b6ff1cc3e6f0d08a28d.jpeg",
     "index.html": "/capinnov/index.html",
-    "main.44d81695.css.map": "/capinnov/static/css/main.44d81695.css.map",
-    "main.4a971e19.js.map": "/capinnov/static/js/main.4a971e19.js.map",
+    "main.4a752c80.css.map": "/capinnov/static/css/main.4a752c80.css.map",
+    "main.609aaa6c.js.map": "/capinnov/static/js/main.609aaa6c.js.map",
     "787.512dd3f2.chunk.js.map": "/capinnov/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44d81695.css",
-    "static/js/main.4a971e19.js"
+    "static/css/main.4a752c80.css",
+    "static/js/main.609aaa6c.js"
   ]
 }
