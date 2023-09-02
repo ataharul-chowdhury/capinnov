@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
@@ -31,25 +31,25 @@ function App() {
 
 	return (
 		<div className="App">
-			<Routes>
-				<Route path="/capinnov" element={<Homepage />} />
-				<Route path="/" element={<Homepage />} />
-				<Route path="/research-program" element={<ResearchProgram />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/articles" element={<Articles />} />
+				<Routes>
+					<Route path="/capinnov" element={<Homepage />} />
+					<Route path="/" element={<Homepage />} />
+					<Route path="/research-program" element={<ResearchProgram />} />
+					<Route path="/projects" element={<Projects />} />
+					<Route path="/articles" element={<Articles />} />
 
-				<Route path="/asio" element={<ASIO />} />
-				<Route path="/gnf" element={<GNF />} />
-				<Route path="/smac" element={<SMAC />} />
-				<Route path="capinnov/literatureDB" element={<LiteratureDB />} />
+					<Route path="/asio" element={<ASIO />} />
+					<Route path="/gnf" element={<GNF />} />
+					<Route path="/smac" element={<SMAC />} />
+					<Route path="capinnov/literatureDB" element={<LiteratureDB />} />
 
-				<Route path="/teaching-philosophy" element={<TeachingPhilosophy />} />
-				<Route path="/courses-taught" element={<CoursesTaught />} />
+					<Route path="/teaching-philosophy" element={<TeachingPhilosophy />} />
+					<Route path="/courses-taught" element={<CoursesTaught />} />
 
-				<Route path="/article/:slug" element={<ReadArticle />} />
-				<Route path="/contact" element={<Contact />} />
-				<Route path="*" element={<Notfound />} />
-			</Routes>
+					<Route path="/article/:slug" element={<ReadArticle />} />
+					<Route path="/contact" element={<Contact />} />
+					<Route path="*" element={<Notfound />} />
+				</Routes>
 		</div>
 	);
 }
