@@ -41,7 +41,7 @@ function App() {
 					<Route path="/asio" element={<ASIO />} />
 					<Route path="/gnf" element={<GNF />} />
 					<Route path="/smac" element={<SMAC />} />
-					<Route path="capinnov/literatureDB" element={<LiteratureDB />} />
+					<Route path="/literatureDB" element={<LiteratureDB />} />
 
 					<Route path="/teaching-philosophy" element={<TeachingPhilosophy />} />
 					<Route path="/courses-taught" element={<CoursesTaught />} />
