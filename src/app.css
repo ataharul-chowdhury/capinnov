@@ -30,6 +30,11 @@
 	bottom: 0;
 	width: calc((100% - 1200px) / 2);
 	background-color: white;
+	background-image: url(https://img.freepik.com/free-vector/simple-white-technology-background_23-2148417864.jpg?w=2000);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .page-content:before {
